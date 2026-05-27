@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fog-of-war"
+version = "0.1.0"
+description = ""
+authors = ["dnl-strnl <129630837+dnl-strnl@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{ include = "fog_of_war", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chess = "^1.10.0"
+gym = "^0.26.2"
+jupyter = "^1.0.0"
+notebook = "^7.1.0"
+matplotlib = "^3.8.3"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
